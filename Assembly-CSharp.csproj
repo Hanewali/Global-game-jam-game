@@ -52,7 +52,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\scripts\PlayerController.cs" />
+=======
+    <Compile Include="Assets\menu\AnimDog.cs" />
+    <Compile Include="Assets\menu\scripts\ExitOnClick.cs" />
+    <Compile Include="Assets\menu\scripts\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\scripts\DogController.cs" />
+    <Compile Include="Assets\scripts\PlayerController.cs" />
+    <Compile Include="Assets\scripts\SpawnerController.cs" />
+    <Compile Include="Assets\scripts\TriggerKiller.cs" />
+    <Compile Include="Assets\scripts\WinScript.cs" />
+    <Compile Include="Assets\scripts\xVelController.cs" />
+    <Compile Include="Assets\scripts\yVelController.cs" />
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     <Reference Include="UnityEngine.UI">
       <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

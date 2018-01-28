@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.UI;
 
@@ -13,8 +15,24 @@ public class PlayerController : MonoBehaviour
 	public int JumpPower = 20;
 	public bool Ground = true;
 	public LayerMask PlatformMask;
+<<<<<<< HEAD
 	public Animation Anim;
 		
+=======
+	public Animator Animator = null;
+	public GameObject Dog;
+	public GameObject Dog2;
+	public GameObject Dog3;
+	public GameObject DarkPortal;
+	public GameObject Portal;
+	public GameObject coli;
+	
+	private float distToBeacon;
+	public GameObject smallBeacon;
+	private float beaconCounter = 0f;
+
+	
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 	private bool _flipSide = false;
 	private SpriteRenderer _spriteRenderer;
 	                                 
@@ -44,7 +62,22 @@ public class PlayerController : MonoBehaviour
 			//InvokeRepeating("Falsing",0.5f,0.1f);
 			//Debug.Log((Ground));
 
+<<<<<<< HEAD
 			//Debug.Log(Ground);
+=======
+		if (Input.GetButtonDown("Fire1") && distToBeacon < 1)
+		{
+			smallBeacon.active = false;
+			beacon.transform.position = smallBeacon.transform.position;
+			Dog.active = true;
+			Dog2.active = true;
+			Dog3.active = true;
+			beacon.active = true;
+			DarkPortal.active = false;
+			Portal.transform.position = DarkPortal.transform.position;
+			Portal.active = true;
+
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 		}
 		
 		Player.velocity = move * Speed + jump;
@@ -71,11 +104,24 @@ public class PlayerController : MonoBehaviour
 		{
 			//Debug.Log(Ground);
 		}
+		else if (other.gameObject.CompareTag("Portal"))
+		{
+			SceneManager.LoadScene("WinScene");
+		}
 	}
 
+<<<<<<< HEAD
 	void Falsing()
 	{
 		Ground = false;
 		Debug.Log(Ground);
+=======
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.CompareTag("TriggerStupid"))
+		{
+			coli.active = false;
+		}
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 	}
 }

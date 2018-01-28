@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,17 @@ MonoBehaviour:
     y: 30
     width: 1855
     height: 1006
+<<<<<<< HEAD
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 129
+=======
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 44
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,9 +96,15 @@ MonoBehaviour:
     y: 0
     width: 366
     height: 608
+<<<<<<< HEAD
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -206,7 +219,11 @@ MonoBehaviour:
     y: 0
     width: 1479
     height: 1006
+<<<<<<< HEAD
   m_MinSize: {x: 406, y: 492}
+=======
+  m_MinSize: {x: 404, y: 492}
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 45
@@ -230,8 +247,13 @@ MonoBehaviour:
     y: 0
     width: 1479
     height: 608
+<<<<<<< HEAD
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
+=======
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   vertical: 0
   controlID: 46
 --- !u!114 &11
@@ -256,11 +278,20 @@ MonoBehaviour:
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 16}
   - {fileID: 12}
   - {fileID: 17}
   m_Selected: 2
   m_LastSelected: 0
+=======
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 13}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,6 +299,55 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 433
+    y: 131
+    width: 1109
+    height: 587
+  m_ViewPositions:
+    m_KeySerializationHelper:
+    - {fileID: 1107462608364967000, guid: a98fa8259dd0d4bbd8ed5fc671af82f9, type: 2}
+    - {fileID: 1107629064404241722, guid: c350aae9f4e4840ef99aaf0a3573a04a, type: 2}
+    m_ValueSerializationHelper:
+    - {x: 744.4, y: 191.40002}
+    - {x: 744.4, y: 229.40002}
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_SerializedLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -287,7 +367,11 @@ MonoBehaviour:
     y: 181
     width: 973
     height: 501
+<<<<<<< HEAD
 --- !u!114 &13
+=======
+--- !u!114 &14
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -325,19 +409,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/characters/Character
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/characters/Character
+=======
+    - Assets/menu/Logo
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/menu/Logo
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/te_sel/GlobalGameJam
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 763c0000
     m_LastClickedID: 15478
     m_ExpandedIDs: 00000000f4250000f825000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: ee260000
+    m_LastClickedID: 9966
+    m_ExpandedIDs: 00000000062600006a2600009826000000ca9a3bffffff7f
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +463,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f4250000
+=======
+    m_ExpandedIDs: 0000000006260000122600006a26000098260000
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +495,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c6230000
+=======
+    m_ExpandedInstanceIDs: c62300001e46000016460000
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -420,7 +526,11 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
+<<<<<<< HEAD
 --- !u!114 &14
+=======
+--- !u!114 &15
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -449,7 +559,11 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
+<<<<<<< HEAD
     m_CachedPref: 316
+=======
+    m_CachedPref: 160
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -481,6 +595,7 @@ MonoBehaviour:
     height: 587
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 40010000
     m_LastClickedID: 0
     m_ExpandedIDs: 18fcffff0000000060260000
@@ -488,16 +603,32 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
+=======
+    m_SelectedIDs: dea1feff
+    m_LastClickedID: -89634
+    m_ExpandedIDs: 38aafeff14abfeff80e0feffc6e9feffb657ffff1460ffff7afaffff18fcffff000000007e270000d84b0000e24b0000164c00003e4c0000bc7c0000e47c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: character_stand
+      m_OriginalName: character_stand
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
+=======
+      m_UserData: 20892
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 4
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -528,8 +659,13 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 368
     y: 19
+=======
+    x: 433
+    y: 131
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
     width: 1109
     height: 587
   m_SceneLighting: 1
@@ -538,9 +674,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 13.213081, y: 302.73322, z: 0}
     speed: 2
     m_Value: {x: 13.213081, y: 302.73322, z: 0}
+=======
+    m_Target: {x: -1.7469851, y: 0.9158519, z: 0}
+    speed: 2
+    m_Value: {x: -1.7469851, y: 0.9158519, z: 0}
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +709,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 369.11786
     speed: 2
     m_Value: 369.11786
+=======
+    m_Target: 1066.8357
+    speed: 2
+    m_Value: 1066.8357
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   m_Ortho:
     m_Target: 1
     speed: 2

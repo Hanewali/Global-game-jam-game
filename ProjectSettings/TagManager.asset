@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
+<<<<<<< HEAD
+=======
+  - EnemyDog
+  - DogWall
+  - TriggerKiller
+  - TriggerStupid
+  - Portal
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
   layers:
   - Default
   - TransparentFX

@@ -13,8 +13,23 @@
             </e>
           </e>
         </e>
+        <e p="menu" t="Include">
+          <e p="AnimDog.cs" t="Include" />
+          <e p="scripts" t="Include">
+            <e p="ExitOnClick.cs" t="Include" />
+            <e p="LoadSceneOnClick.cs" t="Include" />
+          </e>
+        </e>
         <e p="scripts" t="Include">
           <e p="PlayerController.cs" t="Include" />
+<<<<<<< HEAD
+=======
+          <e p="SpawnerController.cs" t="Include" />
+          <e p="TriggerKiller.cs" t="Include" />
+          <e p="WinScript.cs" t="Include" />
+          <e p="xVelController.cs" t="Include" />
+          <e p="yVelController.cs" t="Include" />
+>>>>>>> 008d6b2... Level 1: Final, winscene, menuscene, all working!
         </e>
       </e>
       <e p="GlobalGameJam.sln" t="IncludeFlat" />
